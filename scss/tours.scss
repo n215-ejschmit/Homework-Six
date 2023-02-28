@@ -1,0 +1,46 @@
+.toursHolder {
+  margin: 0 auto;
+  max-width: $site-width;
+
+  .toursHero {
+    width: 75%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour/tours-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h2 {
+      color: white;
+      font-family: novaCondensed;
+      font-size: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+
+  .destinationRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 818px;
+    margin: auto;
+    margin-bottom: 3%;
+    .info {
+      span {
+        background-color: $site-blue;
+        padding: 10px 20px;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+

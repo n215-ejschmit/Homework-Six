@@ -145,7 +145,7 @@ a {
   width: 50%;
   position: absolute;
   top: 0;
-  left: 24%;
+  left: 25%;
   border-bottom-width: 2px;
   border-bottom-color: black;
   border-bottom-style: solid;
@@ -219,6 +219,7 @@ a {
 @media (max-width: 1130px) {
   .nav-holder {
     width: 55%;
+    margin-bottom: 5%;
   }
   .logo {
     display: none;
@@ -446,7 +447,8 @@ footer .footerText {
   align-items: center;
   justify-content: space-evenly;
   color: white;
-  margin-left: 25%;
+  margin-left: 27%;
+  width: 20%;
 }
 footer .footerText p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -564,6 +566,46 @@ footer .footerIcons a {
     margin-top: 5%;
   }
 }
+.toursHolder {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.toursHolder .toursHero {
+  width: 75%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.toursHolder .toursHero h2 {
+  color: white;
+  font-family: novaCondensed;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.toursHolder .destinationRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 818px;
+  margin: auto;
+  margin-bottom: 3%;
+}
+.toursHolder .destinationRow .info span {
+  background-color: #79addc;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
 @font-face {
   font-family: gsLight;
   src: url(../css/fonts/Gill\ Sans\ Light.otf);
