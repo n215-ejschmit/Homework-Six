@@ -22,3 +22,7 @@ For this homework assignment, you will be making the tour page and the individua
 - Each individual page must look like the prototype and the text inside the header image must stay in place and the rest of the page must be responsive. 
 - Your page must be responsive. 
 - You can align the elements as you wish but they must look good and not touch the sides of the browser.
+
+
+# Homework Six Web4 Link:
+[LINK HERE]
