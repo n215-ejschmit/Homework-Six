@@ -36,11 +36,12 @@
 }
 .destination .info p {
   font-size: 30px;
+  margin-top: -20px;
 }
 .destination .info a {
   color: white;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .isreal-pic {
@@ -53,6 +54,25 @@
 
 .aussie-pic {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+
+.destinationRow .NZ-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+.destinationRow .france-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+.destinationRow .egypt-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+.destinationRow .japan-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+.destinationRow .canada-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+.destinationRow .UAE-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
 }
 
 @media (max-width: 900px) {
@@ -115,7 +135,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 50%;
   margin-right: -2%;
 }
 .home-nav-holder .links p {
@@ -143,21 +162,24 @@ a {
 
 .nav-holder {
   width: 50%;
-  position: absolute;
+  margin: 0 auto;
   top: 0;
   left: 25%;
   border-bottom-width: 2px;
   border-bottom-color: black;
   border-bottom-style: solid;
   display: flex;
+  justify-content: space-between;
 }
 .nav-holder .links {
-  width: 450px;
+  max-width: 500px;
+  min-width: 350px;
   display: flex;
   justify-content: space-evenly;
+  padding: 10px;
 }
 .nav-holder .links p {
-  color: black;
+  color: #79addc;
   margin-top: 10px;
 }
 .nav-holder nav {
@@ -176,61 +198,6 @@ a {
   margin: 10px 5px;
 }
 
-@media (max-width: 1120px) {
-  .home-nav-holder {
-    width: 80%;
-  }
-  .home-nav-holder .links {
-    padding-left: -100px;
-    max-width: 100%;
-    margin-right: 55%;
-    padding-left: 10%;
-  }
-  .home-nav-holder .links a {
-    padding: 5%;
-  }
-}
-@media (max-width: 700px) {
-  .home-nav-holder {
-    width: 88%;
-    margin-left: -5%;
-  }
-  .logo {
-    display: none;
-  }
-  .links {
-    margin-left: -10%;
-    padding: -5%;
-    display: flex;
-    align-items: right;
-    justify-content: space-evenly;
-  }
-  .home-nav-holder {
-    width: 85%;
-  }
-  .home-nav-holder .logo {
-    width: 50px;
-  }
-  .home-nav-holder .links {
-    width: 60%;
-    font-size: 12px;
-  }
-}
-@media (max-width: 1130px) {
-  .nav-holder {
-    width: 55%;
-    margin-bottom: 5%;
-  }
-  .logo {
-    display: none;
-  }
-  .links {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 60%;
-  }
-}
 .home .hero {
   max-width: 1280px;
   height: 500px;
@@ -491,6 +458,7 @@ footer .footerIcons a {
 .aboutWrapper {
   max-width: 980px;
   margin: 0 auto;
+  padding: 20px;
 }
 .aboutWrapper .AboutTitle {
   max-width: 100%;
@@ -543,32 +511,10 @@ footer .footerIcons a {
   font-weight: 2;
 }
 
-@media (max-width: 1000px) {
-  .AboutTitle {
-    width: 40%;
-    margin-left: -10%;
-  }
-  .AboutTitle p {
-    width: 124%;
-  }
-  .quotes {
-    max-width: 150%;
-    margin-left: 24%;
-  }
-  .quotes h3 {
-    margin-right: 15%;
-  }
-  .quotes .quote {
-    flex-direction: column;
-  }
-  .quotes .quote p {
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-}
 .toursHolder {
   margin: 0 auto;
   max-width: 1280px;
+  margin-top: -100px;
 }
 .toursHolder .toursHero {
   width: 75%;
@@ -592,7 +538,10 @@ footer .footerIcons a {
   align-items: center;
   justify-content: space-evenly;
 }
-.toursHolder .destinationRow {
+.toursHolder .rowHolder {
+  margin-bottom: 100px;
+}
+.toursHolder .rowHolder .destinationRow {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -600,12 +549,149 @@ footer .footerIcons a {
   margin: auto;
   margin-bottom: 3%;
 }
-.toursHolder .destinationRow .info span {
+.toursHolder .rowHolder .destinationRow .info span {
   background-color: #79addc;
   padding: 10px 20px;
   border-radius: 30px;
 }
+.toursHolder .rowHolder .destinationRow .NZ-pic .info h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
 
+.TourWrapper {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 980px;
+}
+.TourWrapper .hero {
+  max-width: 980px;
+  height: 418px;
+  padding: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.TourWrapper .hero h1 {
+  font-family: novaCondensed;
+  font-size: 80px;
+  color: white;
+  padding-left: 10px;
+  width: fit-content;
+  margin-top: -200px;
+}
+.TourWrapper .hero h3 {
+  color: white;
+  font-size: 30px;
+  font-family: NovaCondensed;
+  width: 400px;
+  margin-top: 400px;
+  margin-right: -40px;
+}
+.TourWrapper .button {
+  width: 980px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-left: 45%;
+}
+.TourWrapper .button a {
+  color: #fff;
+  font-family: gsLight;
+}
+.TourWrapper .button span {
+  background-color: #79addc;
+  padding: 10px 20px;
+  font-family: gsLight;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.TourWrapper .TourImgRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: auto;
+  margin-top: 40px;
+  padding-left: 10px;
+}
+.TourWrapper .TourImgRow .TourImg img {
+  height: 350px;
+  max-width: 300px;
+  padding: 10px;
+}
+.TourWrapper .dayHolder {
+  margin-bottom: 80px;
+  max-width: 980px;
+  margin: auto;
+  padding: 10px;
+  padding-right: 10px;
+}
+.TourWrapper .dayHolder .title {
+  width: fit-content;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  padding-bottom: -30px;
+  margin-bottom: 35px;
+}
+.TourWrapper .dayHolder .title h1 {
+  font-family: NovaCondensed;
+  font-size: 60px;
+}
+.TourWrapper .dayHolder .dayTwo {
+  margin-top: 70px;
+}
+.TourWrapper .dayHolder .dayThree {
+  margin-top: 70px;
+}
+.isrealHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+}
+
+.usaHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+}
+
+.ausHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+}
+
+.nzHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+}
+
+.franceHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+}
+
+.egyptHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+}
+
+.japanHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+}
+
+.canadaHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+}
+
+.uaeHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+}
+
+@media (max-width: 920px) {
+  .TourImgRow {
+    flex-direction: column;
+  }
+  .TourImgRow img {
+    object-fit: cover;
+  }
+}
 @font-face {
   font-family: gsLight;
   src: url(../css/fonts/Gill\ Sans\ Light.otf);

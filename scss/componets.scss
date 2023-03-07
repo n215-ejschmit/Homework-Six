@@ -37,28 +37,63 @@
     }
     p {
       font-size: 30px;
+      margin-top: -20px;
     }
     a {
       color: white;
       text-decoration: none;
-      margin-top: 10px;
+      margin-top: 40px;
     }
   }
 }
 
 .isreal-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/tour/tour-01.jpg);
-}
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-01.jpg);
+  }
 
-.usa-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/tour/tour-02.jpg);
-}
+  .usa-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-02.jpg);
+  }
 
-.aussie-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/tour/tour-03.jpg);
+  .aussie-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-03.jpg);
+  }
+
+  //This is the BG images for the tours page, minus the few above that are on home as well//
+
+.destinationRow {
+  .NZ-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-04.jpg);
+  }
+
+  .france-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-05.jpg);
+  }
+
+  .egypt-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-06.jpg);
+  }
+
+  .japan-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-07.jpg);
+  }
+
+  .canada-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-08.jpg);
+  }
+
+  .UAE-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-09.jpg);
+  }
 }
 
 @media (max-width: 900px) {
@@ -68,7 +103,7 @@
 }
 
 @media (max-width: 600px) {
-  .destination{
+  .destination {
     margin-bottom: 50px;
   }
 }

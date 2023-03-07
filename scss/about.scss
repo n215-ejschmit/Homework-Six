@@ -1,6 +1,7 @@
 .aboutWrapper {
     max-width: $site-nav-width;
     margin: 0 auto;
+    padding: 20px;
   .AboutTitle {
     max-width: 100%;
     margin: 0 auto;
@@ -55,31 +56,4 @@
       font-weight: 2;
     }
   }
-}
-
-@media (max-width: 1000px) {
-    .AboutTitle{
-        width: 40%;
-        margin-left: -10%;
-        // background-color: blue;
-        p{
-            width: 124%;
-        }
-    }
-
-    .quotes{
-        max-width: 150%;
-       margin-left: 24%;
-        h3{
-            margin-right: 15%;
-        }
-        .quote{
-            flex-direction: column;
-
-            p{
-                margin-left: 10%;
-                margin-top: 5%;
-            }
-        }
-    }
 }
