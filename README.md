@@ -25,4 +25,4 @@ For this homework assignment, you will be making the tour page and the individua
 
 
 # Homework Six Web4 Link:
-[LINK HERE]
+https://in-info-web4.informatics.iupui.edu/~ejschmit/homework-six/index.html
